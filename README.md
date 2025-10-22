@@ -7,12 +7,15 @@ It supports both **CLI** and **GUI** modes, allowing you to extract the correct 
 
 ## Features
 
-- Automatically fetches `.m3u8` links from a page.
+- Automatically fetches `.m3u8` links from a page video url.
 - Option to select which video to download if multiple streams exist.
 - Downloads video using **FFmpeg**, supporting all resolutions.
 - Simple GUI using **Tkinter** with folder selection and status updates.
 - CLI mode for quick downloads.
 
+
+Take video url from Amazon Live product pages and download the video stream directly to your computer.
+![url guide image](urlguide.png)
 ---
 
 ## Requirements
@@ -61,3 +64,7 @@ In Code:
 from core.extract_links import get_m3u8_links
 from core.download_video import download_video
 ```
+
+----
+## github repo:
+https://github.com/LiranBratt2121/amazon-product-video-fetcher

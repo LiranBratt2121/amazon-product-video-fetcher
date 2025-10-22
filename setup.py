@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="amazon-product-video-fetcher",
-    version="0.0.1",
+    version="0.0.2",
     author="Liran Bratt",
     author_email="brattlirannin@gmail.com",
     description="A Small tool to Extract and Download m3u8 videos",
