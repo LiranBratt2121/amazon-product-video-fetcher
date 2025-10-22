@@ -1,1 +1,6 @@
 /.venv
+dist/
+amazon_product_video_fetcher.egg-info/
+*.pyc
+__pycache__/
+core/__pycache__/
