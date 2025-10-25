@@ -61,8 +61,8 @@ The GUI will automatically select the first video in the HLS playlist.
 In Code:
 
 ```python
-from core.extract_links import get_m3u8_links
-from core.download_video import download_video
+from amazon_product_video_fetcher.core.extract_links import get_m3u8_links
+from amazon_product_video_fetcher.core.download_video import download_video
 ```
 
 ----
